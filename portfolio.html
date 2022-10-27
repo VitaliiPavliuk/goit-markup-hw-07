@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- header -->
@@ -199,71 +200,67 @@
     </main>
     
     <!-- footer -->
-    <footer class="footer">
-        <div class="container container-footer">
-            <div>
-                <a href="./index.html" lang="en" class="logo logo-footer"> <span class="logo-accent">Web</span>Studio</a>
-                <address>
-                    <ul class="list">
-                        <li class="address-item"><a href="https://goo.gl/maps/fUNhZHvPjA6vGSTK8" target="_blank"
-                                rel="noopener norefferer" class="address-footer">м. Київ, пр-т Лесі Українки, 26</a></li>
-                        <li class="address-item"><a href="mailto:info@devstudio.com"
-                                class="contacts-footer">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="contacts-footer">+38 096 111 11 11</a></li>
+        <footer class="footer">
+            <div class="container container-footer">
+                <div class="address-container">
+                    <a href="./index.html" lang="en" class="logo logo-footer"> <span class="logo-accent">Web</span>Studio</a>
+                    <address>
+                        <ul class="list">
+                            <li class="address-item"><a href="https://goo.gl/maps/fUNhZHvPjA6vGSTK8" target="_blank"
+                                    rel="noopener norefferer" class="address-footer">м. Київ, пр-т Лесі Українки, 26</a></li>
+                            <li class="address-item"><a href="mailto:info@devstudio.com"
+                                    class="contacts-footer">info@devstudio.com</a></li>
+                            <li><a href="tel:+380961111111" class="contacts-footer">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+        
+                <div class="join-container">
+                    <p class="footer-join">Приєднуйтесь</p>
+                    <ul class="list social-list">
+                        <li class="social-list-item">
+                            <a href="" class="social-media-footer">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="" class="social-media-footer">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="" class="social-media-footer">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="" class="social-media-footer">
+                                <svg width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg></a>
+                        </li>
                     </ul>
-                </address>
+                </div>
+        
+                <div>
+                    <p class="footer-join">Підпишіться на розсилку</p>
+                    <form class="footer-form">
+                        <label>
+                            <input type="email" class="footer-field-input" required name="user_subscription_email"
+                                placeholder="E-mail">
+                        </label>
+                        <button type="submit" class="subscript-btn">Підписатися
+                            <svg width="24px" height="24px">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
             </div>
-    
-            <div>
-                <p class="footer-join">Приєднуйтесь</p>
-                <ul class="list social-list">
-                    <li class="social-list-item">
-                        <a href="" class="social-media-footer">
-                            <svg width="20px" height="20px">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg></a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="" class="social-media-footer">
-                            <svg width="20px" height="20px">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg></a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="" class="social-media-footer">
-                            <svg width="20px" height="20px">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg></a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="" class="social-media-footer">
-                            <svg width="20px" height="20px">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg></a>
-                    </li>
-                </ul>
-            </div>
-    
-            <div>
-                <p class="footer-join">Підпишіться на розсилку</p>
-                <form class="footer-form">
-                    <label>
-                        <input
-                        type="email"
-                        class="footer-field-input"
-                        required
-                        name="user_subscription_email"
-                        placeholder="E-mail">
-                    </label>
-                    <button type="submit" class="subscript-btn">Підписатися
-                        <svg width="24px" height="24px">
-                            <use href="./images/icons.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
 </body>
 </html>
