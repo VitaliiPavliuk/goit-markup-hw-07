@@ -36,27 +36,27 @@
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-}
 
-.site-nav-link:hover,
-.site-nav-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
 .current {
     color: var(--accent-color);
     position: relative;
-}
 
-.current::after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background-color: var(--accent-color);
-    border-radius: 2px;
-    bottom: -1px;
-    left: 0;
+    &::after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background-color: var(--accent-color);
+        border-radius: 2px;
+        bottom: -1px;
+        left: 0;
+        }
 }
 
 .contacts {
@@ -71,10 +71,10 @@
     column-gap: 10px;
     fill: var(--secondary-text-color);
     transition: color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
-}
 
-.contacts:hover,
-.contacts:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+        }
 }

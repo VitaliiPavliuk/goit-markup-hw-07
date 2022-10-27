@@ -19,10 +19,10 @@
     align-items: center;
     fill: #AFB1B8;
     transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
-}
 
-.client:hover,
-.client:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        fill: var(--accent-color);
+        }
 }

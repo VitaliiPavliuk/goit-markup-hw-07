@@ -21,11 +21,11 @@
     letter-spacing: 0.03em;
     font-style: normal;
     transition: color var(--transition-dur-and-func);
-}
 
-.contacts-footer:hover,
-.contacts-footer:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
 .address-footer {
@@ -35,13 +35,12 @@
     color: var(--white-text-color);
     text-decoration: none;
     letter-spacing: 0.03em;
-
     transition: color var(--transition-dur-and-func);
-}
 
-.address-footer:hover,
-.address-footer:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
 .logo-footer {
@@ -68,11 +67,11 @@
     fill: var(--white-text-color);
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-dur-and-func);
-}
 
-.social-media-footer:hover,
-.social-media-footer:focus {
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        }
 }
 
 .footer-join {
@@ -101,13 +100,13 @@
     border-radius: 4px;
     background-color: transparent;
     color: var(--white-text-color);
-}
 
-.footer-field-input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        }
 }
 
 .subscript-btn {

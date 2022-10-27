@@ -7,13 +7,14 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 500ms linear, visibility 500ms linear;
+
+    &.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        }
 }
 
-.backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
 .modal {
     position: absolute;
     top: 50%;
@@ -44,9 +45,9 @@
 
 .modal-close-icon {
     transition: fill var(--transition-dur-and-func);
-}
-
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
-    fill: var(--accent-color);
+    
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+        fill: var(--accent-color);
+        }
 }

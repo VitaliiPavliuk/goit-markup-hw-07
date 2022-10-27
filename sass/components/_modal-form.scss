@@ -43,11 +43,11 @@
     border-radius: 4px;
     padding-left: 42px;
     transition: border-color var(--transition-dur-and-func);
-}
 
-.modal-field-input:focus {
-    outline-offset: 2px;
-    border-color: var(--accent-color);
+    &:focus {
+        outline-offset: 2px;
+        border-color: var(--accent-color);
+        }
 }
 
 .modal-field-icon {
@@ -57,10 +57,10 @@
     transform: translateY(-50%);
     fill: var(--primary-text-color);
     transition: fill var(--transition-dur-and-func);
-}
 
-.modal-field-input:focus+.modal-field-icon {
-    fill: var(--accent-color);
+    .modal-field-input:focus + & {
+        fill: var(--accent-color);
+        }
 }
 
 .modal-comment {
@@ -75,18 +75,18 @@
     padding-right: 16px;
     transition: border-color var(--transition-dur-and-func);
     display: block;
-}
 
-.modal-comment::placeholder {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-}
+    &::placeholder {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+        }
 
-.modal-comment:focus {
-    outline-offset: 2px;
-    border-color: var(--accent-color);
+    &:focus {
+        outline-offset: 2px;
+        border-color: var(--accent-color);
+        }
 }
 
 .modal-checkbox-wrapper {
@@ -109,16 +109,16 @@
     padding-left: 2px;
     cursor: pointer;
     margin-right: 7px;
-}
 
-.modal-checkbox:focus+.modal-checkbox-svg {
-    outline: 2px solid black;
-}
+    .modal-checkbox:focus + & {
+        outline: 2px solid black;
+        }
 
-.modal-checkbox:checked+.modal-checkbox-svg {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    outline: none;
+    .modal-checkbox:checked + & {
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+        outline: none;
+    }
 }
 
 .policy-link {
@@ -145,9 +145,9 @@
     margin-left: auto;
     margin-right: auto;
     transition: background-color var(--transition-dur-and-func);
-}
 
-.modal-submit:hover,
-.modal-submit:focus {
-    background-color: var(--button-focus-color);
+    &:hover,
+    &:focus {
+        background-color: var(--button-focus-color);
+        }
 }

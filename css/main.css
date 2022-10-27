@@ -105,9 +105,7 @@ img {
   margin-right: auto;
   transition: background-color var(--transition-dur-and-func);
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: var(--button-focus-color);
 }
 
@@ -140,9 +138,7 @@ img {
   fill: #AFB1B8;
   transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
 }
-
-.social-media:hover,
-.social-media:focus {
+.social-media:hover, .social-media:focus {
   background-color: var(--accent-color);
   fill: var(--white-text-color);
 }
@@ -157,7 +153,6 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 500ms linear, visibility 500ms linear;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -195,9 +190,7 @@ img {
 .modal-close-icon {
   transition: fill var(--transition-dur-and-func);
 }
-
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
+.modal-close-btn:hover .modal-close-icon, .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
 }
 
@@ -247,7 +240,6 @@ img {
   padding-left: 42px;
   transition: border-color var(--transition-dur-and-func);
 }
-
 .modal-field-input:focus {
   outline-offset: 2px;
   border-color: var(--accent-color);
@@ -261,7 +253,6 @@ img {
   fill: var(--primary-text-color);
   transition: fill var(--transition-dur-and-func);
 }
-
 .modal-field-input:focus + .modal-field-icon {
   fill: var(--accent-color);
 }
@@ -279,14 +270,12 @@ img {
   transition: border-color var(--transition-dur-and-func);
   display: block;
 }
-
 .modal-comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-comment:focus {
   outline-offset: 2px;
   border-color: var(--accent-color);
@@ -313,11 +302,9 @@ img {
   cursor: pointer;
   margin-right: 7px;
 }
-
 .modal-checkbox:focus + .modal-checkbox-svg {
   outline: 2px solid black;
 }
-
 .modal-checkbox:checked + .modal-checkbox-svg {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
@@ -349,9 +336,7 @@ img {
   margin-right: auto;
   transition: background-color var(--transition-dur-and-func);
 }
-
-.modal-submit:hover,
-.modal-submit:focus {
+.modal-submit:hover, .modal-submit:focus {
   background-color: var(--button-focus-color);
 }
 
@@ -376,9 +361,7 @@ img {
   border: 0;
   transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
-
-.filter:hover,
-.filter:focus {
+.filter:hover, .filter:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -423,9 +406,7 @@ img {
   padding-bottom: 32px;
   display: block;
 }
-
-.site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link:hover, .site-nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -433,7 +414,6 @@ img {
   color: var(--accent-color);
   position: relative;
 }
-
 .current::after {
   content: "";
   position: absolute;
@@ -458,9 +438,7 @@ img {
   fill: var(--secondary-text-color);
   transition: color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
 }
-
-.contacts:hover,
-.contacts:focus {
+.contacts:hover, .contacts:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -636,9 +614,7 @@ img {
   fill: #AFB1B8;
   transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
 }
-
-.client:hover,
-.client:focus {
+.client:hover, .client:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -667,9 +643,7 @@ img {
   font-style: normal;
   transition: color var(--transition-dur-and-func);
 }
-
-.contacts-footer:hover,
-.contacts-footer:focus {
+.contacts-footer:hover, .contacts-footer:focus {
   color: var(--accent-color);
 }
 
@@ -682,9 +656,7 @@ img {
   letter-spacing: 0.03em;
   transition: color var(--transition-dur-and-func);
 }
-
-.address-footer:hover,
-.address-footer:focus {
+.address-footer:hover, .address-footer:focus {
   color: var(--accent-color);
 }
 
@@ -713,9 +685,7 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition-dur-and-func);
 }
-
-.social-media-footer:hover,
-.social-media-footer:focus {
+.social-media-footer:hover, .social-media-footer:focus {
   background-color: var(--accent-color);
 }
 
@@ -746,7 +716,6 @@ img {
   background-color: transparent;
   color: var(--white-text-color);
 }
-
 .footer-field-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -791,15 +760,8 @@ img {
   display: block;
   transition: box-shadow var(--transition-dur-and-func);
 }
-
-.project-link:hover,
-.project-link:focus {
+.project-link:hover, .project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.project-link:hover .overlay-projects,
-.project-link:focus .overlay-projects {
-  transform: translateY(0%);
 }
 
 .project-img-wrapper {
@@ -848,4 +810,7 @@ img {
   overflow: auto;
   transform: translateY(100%);
   transition: transform 250ms linear;
+}
+.project-link:hover .overlay-projects, .project-link:focus .overlay-projects {
+  transform: translateY(0%);
 }/*# sourceMappingURL=main.css.map */
