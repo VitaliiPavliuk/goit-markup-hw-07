@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.modal-header {
+.modal-form__header {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -13,15 +13,11 @@
     margin-bottom: 12px;
 }
 
-.modal-field {
+.modal-form__field {
     margin-bottom: 10px;
 }
 
-.modal-textarea {
-    margin-bottom: 20px;
-}
-
-.modal-field-desc {
+.modal-form__field-desc {
     display: block;
     font-weight: 400;
     font-size: 12px;
@@ -31,12 +27,12 @@
     margin-bottom: 4px;
 }
 
-.modal-field-wrapper {
+.modal-form__field-wrapper {
     display: block;
     position: relative;
 }
 
-.modal-field-input {
+.modal-form__field-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -50,7 +46,7 @@
         }
 }
 
-.modal-field-icon {
+.modal-form__field-icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -58,12 +54,16 @@
     fill: var(--primary-text-color);
     transition: fill var(--transition-dur-and-func);
 
-    .modal-field-input:focus + & {
+    .modal-form__field-input:focus + & {
         fill: var(--accent-color);
         }
 }
 
-.modal-comment {
+.modal-form__textarea {
+    margin-bottom: 20px;
+}
+
+.modal-form__comment {
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -89,7 +89,7 @@
         }
 }
 
-.modal-checkbox-wrapper {
+.modal-form__checkbox-wrapper {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
     letter-spacing: 0.03em;
 }
 
-.modal-checkbox-svg {
+.modal-form__checkbox-icon {
     border: var(--primary-text-color) 1px solid;
     border-radius: 2px;
     padding-top: 3px;
@@ -110,18 +110,18 @@
     cursor: pointer;
     margin-right: 7px;
 
-    .modal-checkbox:focus + & {
+    .modal-form__checkbox:focus + & {
         outline: 2px solid black;
         }
 
-    .modal-checkbox:checked + & {
+    .modal-form__checkbox:checked + & {
         background-color: var(--accent-color);
         border-color: var(--accent-color);
         outline: none;
     }
 }
 
-.policy-link {
+.modal-form__policy-link {
     color: var(--accent-color);
 }
 

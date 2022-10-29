@@ -376,71 +376,71 @@
 
     <!-- BACKDROP -->
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
+        <div class="modal-window">
             <button type="button" class="modal-close-btn" data-modal-close>
-                <svg width="18px" height="18px" class="modal-close-icon">
+                <svg width="18px" height="18px" class="modal-close-btn__icon">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
 
             <form class="modal-form">
-                <b class="modal-header">Залиште свої дані, ми вам передзвонимо</b>
-                <label class="modal-field">
-                    <span class="modal-field-desc">Ім'я</span>
-                    <span class="modal-field-wrapper">
+                <b class="modal-form__header">Залиште свої дані, ми вам передзвонимо</b>
+                <label class="modal-form__field">
+                    <span class="modal-form__field-desc">Ім'я</span>
+                    <span class="modal-form__field-wrapper">
                         <input type="text"
-                        class="modal-field-input"
+                        class="modal-form__field-input"
                         required
                         pattern="[a-zA-Zа-яА-ЯіІїЇєЄ'ґҐ]+"
                         name="user_name">
-                        <svg width="18px" height="18px" class="modal-field-icon">
+                        <svg width="18px" height="18px" class="modal-form__field-icon">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </span>
                 </label>
-                <label class="modal-field">
-                    <span class="modal-field-desc">Телефон</span>
-                    <span class="modal-field-wrapper">
+                <label class="modal-form__field">
+                    <span class="modal-form__field-desc">Телефон</span>
+                    <span class="modal-form__field-wrapper">
                         <input
                         type="tel"
-                        class="modal-field-input"
+                        class="modal-form__field-input"
                         required
                         name="user_phone">
-                        <svg width="18px" height="18px" class="modal-field-icon">
+                        <svg width="18px" height="18px" class="modal-form__field-icon">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </span>
                 </label>
-                <label class="modal-field">
-                    <span class="modal-field-desc">Пошта</span>
-                    <span class="modal-field-wrapper">
+                <label class="modal-form__field">
+                    <span class="modal-form__field-desc">Пошта</span>
+                    <span class="modal-form__field-wrapper">
                         <input
                         type="email"
-                        class="modal-field-input"
+                        class="modal-form__field-input"
                         required
                         name="user_email">
-                        <svg width="18px" height="18px" class="modal-field-icon">
+                        <svg width="18px" height="18px" class="modal-form__field-icon">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </span>
                 </label>
-                <label class="modal-textarea">
-                    <span class="modal-field-desc">Коментар</span>
+                <label class="modal-form__textarea">
+                    <span class="modal-form__field-desc">Коментар</span>
                     <textarea
                         name="user_comment"
-                        class="modal-comment"
+                        class="modal-form__comment"
                         placeholder="Введіть текст"></textarea>
                 </label>
-                <label class="modal-checkbox-wrapper">
+                <label class="modal-form__checkbox-wrapper">
                     <input
                         type="checkbox"
                         name="user_policy"
-                        class="modal-checkbox visually-hidden"
+                        class="modal-form__checkbox visually-hidden"
                         required>
-                    <svg width="16px" height="15px" class="modal-checkbox-svg">
+                    <svg width="16px" height="15px" class="modal-form__checkbox-icon">
                         <use href="./images/icons.svg#icon-check"></use>
                     </svg>
-                    Погоджуюся з розсилкою та приймаю&nbsp;<a href="" class="policy-link">Умови договору</a>
+                    Погоджуюся з розсилкою та приймаю&nbsp;<a href="" class="modal-form__policy-link">Умови договору</a>
                 </label>
                 <button type="submit" class="btn modal-form__btn">Відправити</button>
             </form>

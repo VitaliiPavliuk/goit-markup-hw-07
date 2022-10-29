@@ -15,7 +15,7 @@
         }
 }
 
-.modal {
+.modal-window {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +43,7 @@
     cursor: pointer;
 }
 
-.modal-close-icon {
+.modal-close-btn__icon {
     transition: fill var(--transition-dur-and-func);
     
     .modal-close-btn:hover &,
