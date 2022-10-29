@@ -23,22 +23,7 @@
     margin-bottom: 9px;
 }
 
-.footer-contacts__address {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--white-text-color);
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    transition: color var(--transition-dur-and-func);
-
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-        }
-}
-
-.footer-contacts__contact {
+.footer-contacts__link {
     color: var(--footer-text-color);
     font-size: 14px;
     line-height: 1.5;
@@ -53,11 +38,15 @@
     }
 }
 
-.join-container {
+.footer-contacts__link_address {
+    color: var(--white-text-color);
+}
+
+.footer-social-container {
     margin-right: 93px;
 }
 
-.footer-join {
+.footer-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

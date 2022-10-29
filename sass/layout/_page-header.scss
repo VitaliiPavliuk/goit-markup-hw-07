@@ -20,11 +20,6 @@
     align-items: center;
 }
 
-.header-contacts {
-    display: flex;
-    column-gap: 30px;
-}
-
 .menu__link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -40,7 +35,7 @@
     &:hover,
     &:focus {
         color: var(--accent-color);
-        }
+    }
 }
 
 .menu__link_current {
@@ -56,10 +51,15 @@
         border-radius: 2px;
         bottom: -1px;
         left: 0;
-        }
+    }
 }
 
-.header-contacts__contact {
+.header-contacts {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header-contacts__link {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;

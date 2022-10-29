@@ -8,11 +8,11 @@
     flex-wrap: wrap;
 }
 
-.features-item {
+.features-list__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.features-icon {
+.features-list__icon {
     display: flex;
     height: 120px;
     background-color: var(--secondary-bg-color);
@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.features-title {
+.features-list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -31,7 +31,7 @@
     margin-bottom: 10px;
 }
 
-.features-text {
+.features-list__text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color);
