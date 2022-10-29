@@ -1,4 +1,4 @@
-.header {
+.page-header {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.header-navigation {
+.page-navigation {
     display: flex;
     column-gap: 93px;
     align-items: center;
@@ -25,7 +25,7 @@
     column-gap: 30px;
 }
 
-.site-nav-link {
+.menu__link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -43,7 +43,7 @@
         }
 }
 
-.current {
+.menu__link_current {
     color: var(--accent-color);
     position: relative;
 
@@ -59,7 +59,7 @@
         }
 }
 
-.contacts {
+.header-contacts__contact {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
