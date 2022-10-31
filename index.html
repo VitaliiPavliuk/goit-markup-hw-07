@@ -15,7 +15,7 @@
 <body>
     <!-- header -->
     <header class="page-header">
-        <div class="container header-container">
+        <div class="container page-header__container">
             <nav class="page-navigation">
                 <a href="./index.html" lang="en" class="logo"> <span class="logo__accent">Web</span>Studio</a>
                 <ul class="menu list">
@@ -42,20 +42,20 @@
 
     <main>
         <!-- hero -->
-        <section class="section hero-section overlay">
+        <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="btn" data-modal-open>Замовити послугу</button>
             </div>
         </section>
 
         <!-- features -->
-        <section class="section features-section">
+        <section class="section">
             <div class="container">
                 <h2 class="visually-hidden">Особливості</h2>
                 <ul class="features-list list">
                     <li class="features-list__item">
-                        <div class="features-list__icon">
+                        <div class="features-list__icon-box">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
@@ -64,7 +64,7 @@
                         <p class="features-list__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
                     <li class="features-list__item">
-                        <div class="features-list__icon">
+                        <div class="features-list__icon-box">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
@@ -73,7 +73,7 @@
                         <p class="features-list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
                     <li class="features-list__item">
-                        <div class="features-list__icon">
+                        <div class="features-list__icon-box">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
@@ -82,7 +82,7 @@
                         <p class="features-list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
                     <li class="features-list__item">
-                        <div class="features-list__icon">
+                        <div class="features-list__icon-box">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
@@ -95,26 +95,26 @@
         </section>
 
         <!-- works -->
-        <section class="section works-section">
+        <section class="section section_no-padding-top">
             <div class="container">
-                <h2 class="section-title">Чим ми займаємося</h2>
+                <h2 class="section__title">Чим ми займаємося</h2>
                 <ul class="works-list list">
                     <li class="works-list__item">
                         <img src="./images/desktop.jpg" alt="Десктопні додатки" width="370">
                         <div class="works-list__overlay">
-                            <p class="works-list__title">Десктопні додатки</p>
+                            <p class="works-list__text">Десктопні додатки</p>
                         </div>
                     </li>
                     <li class="works-list__item">
                         <img src="./images/mobile.jpg" alt="Мобільні додатки" width="370">
                         <div class="works-list__overlay">
-                            <p class="works-list__title">Мобільні додатки</p>
+                            <p class="works-list__text">Мобільні додатки</p>
                         </div>
                     </li>
                     <li class="works-list__item">
                         <img src="./images/tablet.jpg" alt="Дизайнерські рішення" width="370">
                         <div class="works-list__overlay">
-                            <p class="works-list__title">Дизайнерські рішення</p>
+                            <p class="works-list__text">Дизайнерські рішення</p>
                         </div>
                     </li>
                 </ul>
@@ -122,15 +122,15 @@
         </section>
 
         <!-- team -->
-        <section class="section team-section">
+        <section class="section section_other-bg">
             <div class="container">
-                <h2 class="section-title">Наша команда</h2>
+                <h2 class="section__title">Наша команда</h2>
                 <ul class="team-list list">
                     <li class="team-list__item">
                         <img src="./images/ihor.jpg" alt="Фото Ігор Дем'яненко" width="270">
                         <div class="team-list__member">
-                            <h3 class="team-list__name">Ігор Дем'яненко</h3>
-                            <p lang="en" class="team-list__role">Product Designer</p>   
+                            <h3 class="team-list__title">Ігор Дем'яненко</h3>
+                            <p lang="en" class="team-list__text">Product Designer</p>   
                             <ul class="social-list list">
                                 <li class="social-list__item">
                                     <a href="" class="social-list__link social-list__link_bg_light">
@@ -162,8 +162,8 @@
                     <li class="team-list__item">
                         <img src="./images/olha.jpg" alt="Фото Ольга Рєпіна" width="270">
                         <div class="team-list__member">
-                            <h3 class="team-list__name">Ольга Рєпіна</h3>
-                            <p lang="en" class="team-list__role">Frontend Developer</p>
+                            <h3 class="team-list__title">Ольга Рєпіна</h3>
+                            <p lang="en" class="team-list__text">Frontend Developer</p>
                             <ul class="social-list list">
                                 <li class="social-list__item">
                                     <a href="" class="social-list__link social-list__link_bg_light">
@@ -195,8 +195,8 @@
                     <li class="team-list__item">
                         <img src="./images/mykola.jpg" alt="Фото Микола Тарасов" width="270">
                         <div class="team-list__member">
-                            <h3 class="team-list__name">Микола Тарасов</h3>
-                            <p lang="en" class="team-list__role">Marketing</p>
+                            <h3 class="team-list__title">Микола Тарасов</h3>
+                            <p lang="en" class="team-list__text">Marketing</p>
                             <ul class="social-list list">
                                 <li class="social-list__item">
                                     <a href="" class="social-list__link social-list__link_bg_light">
@@ -228,8 +228,8 @@
                     <li class="team-list__item">
                         <img src="./images/mykhailo.jpg" alt="Фото Михайло Єрмаков" width="270">
                         <div class="team-list__member">
-                            <h3 class="team-list__name">Михайло Єрмаков</h3>
-                            <p lang="en" class="team-list__role">UI Designer</p>
+                            <h3 class="team-list__title">Михайло Єрмаков</h3>
+                            <p lang="en" class="team-list__text">UI Designer</p>
                             <ul class="social-list list">
                                 <li class="social-list__item">
                                     <a href="" class="social-list__link social-list__link_bg_light">
@@ -265,7 +265,7 @@
         <!-- clients -->
         <section class="section">
             <div class="container">
-                <h2 class="section-title">Постійні клієнти</h2>
+                <h2 class="section__title">Постійні клієнти</h2>
                 <ul class="clients-list list">
                     <li class="clients-list__item">
                         <a href="" class="clients-list__link">
@@ -310,8 +310,8 @@
 
     <!-- footer -->
     <footer class="page-footer">
-        <div class="container footer-container">
-            <div class="address-container">
+        <div class="container page-footer__container">
+            <div class="page-footer__address-container">
                 <a href="./index.html" lang="en" class="logo page-footer__logo"> <span class="logo__accent">Web</span>Studio</a>
                 <address>
                     <ul class="footer-contacts list">
@@ -323,8 +323,8 @@
                 </address>
             </div>
 
-            <div class="footer-social-container">
-                <p class="footer-text">Приєднуйтесь</p>
+            <div class="page-footer__social-container">
+                <p class="page-footer__text">Приєднуйтесь</p>
                 <ul class="social-list list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link social-list__link_bg_dark">
@@ -354,7 +354,7 @@
             </div>
 
             <div>
-                <p class="footer-text">Підпишіться на розсилку</p>
+                <p class="page-footer__text">Підпишіться на розсилку</p>
                 <form class="footer-form">
                     <label>
                         <input
@@ -384,7 +384,7 @@
             </button>
 
             <form class="modal-form">
-                <b class="modal-form__header">Залиште свої дані, ми вам передзвонимо</b>
+                <b class="modal-form__text">Залиште свої дані, ми вам передзвонимо</b>
                 <label class="modal-form__field">
                     <span class="modal-form__field-desc">Ім'я</span>
                     <span class="modal-form__field-wrapper">

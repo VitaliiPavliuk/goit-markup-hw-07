@@ -4,12 +4,12 @@
     padding-bottom: 60px;
 }
 
-.footer-container {
+.page-footer__container {
     display: flex;
     align-items: baseline;
 }
 
-.address-container {
+.page-footer__address-container {
     flex-grow: 1;
 }
 
@@ -42,11 +42,11 @@
     color: var(--white-text-color);
 }
 
-.footer-social-container {
+.page-footer__social-container {
     margin-right: 93px;
 }
 
-.footer-text {
+.page-footer__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
